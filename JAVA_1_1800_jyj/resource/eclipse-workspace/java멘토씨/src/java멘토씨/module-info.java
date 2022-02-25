@@ -1,0 +1,2 @@
+module java¸àÅä¾¾ {
+}

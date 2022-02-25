@@ -1,0 +1,33 @@
+package pack1.pack2;
+
+public class Car {
+	String color; String size; Boolean engineState;
+	void showAtts() {
+		System.out.println("This car is a "+color+" "+size+".");
+		if(engineState == true){
+			System.out.println("The engin is on");
+		}
+		else {
+			System.out.println("the engine is off");
+		}	
+	}
+	void startEngin() {
+		if(engineState == true) {
+			System.out.println("the engine is already on");
+			
+		}else {
+			engineState =true;
+			System.out.println("the engine was started");
+		}
+	}
+	void stopEnginer() {
+		if(engineState ==false) {
+			System.out.println("the  off");
+			
+		}else {
+			engineState =false;
+			System.out.println("the stoped");
+		}
+	}
+	
+}

@@ -1,0 +1,9 @@
+package pack1.pack2;
+import java.util.*;
+public class Ex0405 {
+	public static void main(String[] args) {
+		int radius;
+		
+	}
+
+}

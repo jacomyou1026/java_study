@@ -1,0 +1,23 @@
+package Sort;
+
+public class insertEx {
+	
+	public static void main(String[] args) {
+		int i,j,tmp,index;
+		int[] arr = {1,5,2,3,6,4};
+		for(i=0;i<arr.length;i++) {
+			index = i;
+			for(j=i+1;j>0;j--) {
+				if(arr[index]>arr[j]) {
+					tmp =arr[index];
+					arr[index]=arr[j];
+					arr[j]=tmp;
+				}
+			}
+		}
+		for(i=1;i<arr.length;i++) {
+			System.out.print(arr[i]+", ");
+		}
+	}
+
+}

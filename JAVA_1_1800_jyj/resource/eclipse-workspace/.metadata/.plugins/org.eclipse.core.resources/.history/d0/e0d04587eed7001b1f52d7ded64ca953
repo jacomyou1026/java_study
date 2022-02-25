@@ -1,0 +1,16 @@
+package day2;
+import java.util.Scanner;
+public class Day02import {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("☆☆☆☆☆☆☆신호등 프로그램☆☆☆☆☆☆");
+		System.out.println("신호등을 입력하시오");
+		System.out.println("빨간불 :1, 초록불 :2");
+		int sign = scan.nextInt();
+		String result;
+		result = (sign ==1)?"정지하세오":"출발하세요";
+		System.out.println(result);
+		scan.close();
+	}
+}

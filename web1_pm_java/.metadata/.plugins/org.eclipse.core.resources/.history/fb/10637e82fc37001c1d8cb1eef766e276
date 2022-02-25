@@ -1,0 +1,28 @@
+package work;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class updown {
+	static boolean ischeck;
+		public boolean game(int result) {
+			ischeck =false;
+			Scanner sc = new Scanner(System.in);
+			int answer = sc.nextInt();
+			int count = 1;
+			String r = "";
+			if(answer>result) {
+					count++;
+					r= "Down";
+				}else if(answer<result){
+					count++;
+					r= "up";
+				}else if(answer==result){
+					r= count+"만에 정답";
+					ischeck =true; 
+				}
+			System.out.println(r);
+			return ischeck;
+			}
+
+	}

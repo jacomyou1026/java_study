@@ -1,0 +1,15 @@
+package ex4_choice;
+
+import java.awt.Frame;
+
+public class EX1_Choice {
+	static String res ="일요일";
+	public static void main(String[] args) {
+		Frame f = new Frame("Choice 선택상자");
+		f.setLayout(null); //자동배치 끄기
+		f.setBounds(500,300,300,100);
+		
+		
+		
+	}
+}

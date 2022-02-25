@@ -1,0 +1,61 @@
+package work;
+
+import java.awt.Button;
+import java.awt.Frame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+public class work {
+	public static void main(String[] args) {
+		Frame f = new Frame();
+		f.setBounds(50,10,130,100);
+		f.addWindowListener( new WindowAdapter() {
+
+			@Override
+			public void windowClosing(WindowEvent e) {
+				Frame f1 =new Frame("종료");
+				Button b1 = new Button("종료");
+				Button b2 = new Button("취소");
+				
+				ActionListener al = new ActionListener() {
+					
+					@Override
+					public void actionPerformed(ActionEvent e) {
+						String  s= e.getActionCommand();
+						switch(s) {
+						case "종료":
+							f1.addWindowListener(new WindowAdapter() {
+								@Override
+								public void windowClosing(WindowEvent e) {
+									System.exit(0);//열려있는 모든 프레임을 종료
+								};
+							});
+							break;
+						case "취소":
+							f1.addWindowListener(new WindowAdapter() {
+								@Override
+								public void windowClosing(WindowEvent e) {
+									System.exit(0);//열려있는 모든 프레임을 종료
+								};
+							});
+							break;
+						}
+						
+					}
+				}; 
+				b1.addActionListener(al);
+				b2.addActionListener(al);
+				f1.add(b1);
+				f1.add(b2);
+				
+				
+			};
+		} );
+		
+
+		
+	}
+}

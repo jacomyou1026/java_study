@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Thread.Thread3&apos; to &apos;Thread_2&apos;&#x0D;&#x0A;- Original project: &apos;Thread&apos;&#x0D;&#x0A;- Original element: &apos;Thread.Thread3&apos;&#x0D;&#x0A;- Renamed element: &apos;Thread.Thread_2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Thread3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Thread{Thread2.java[Thread3" matchStrategy="1" name="Thread_2" qualified="false" references="true" similarDeclarations="false" stamp="1627347296201" textual="false" version="1.0"/>
+</session>

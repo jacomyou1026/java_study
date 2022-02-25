@@ -1,0 +1,32 @@
+package ex1_memo_app;
+
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.TextArea;
+import java.awt.TextField;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+public class Memo {
+	public static void main(String[] args) {
+		Frame frame = new Frame("간단 메모장");
+		frame.setBounds(100, 300, 250,400);
+		frame.setLayout(null);
+		frame.setVisible(true);
+		frame.setResizable(false); //프레임의 크기변경 불가
+		
+		Font font = new Font("궁서",Font.PLAIN,20);
+		//키보드의 값을 입력받기 위한 클래스
+		TextField tf = new TextField();
+		tf.setBounds(15, 10, 200, 50);
+		frame.add(tf);
+		frame.addWindowListener( new WindowAdapter() {
+
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);//열려있는 모든 프레임을 종료
+			};
+		} );
+		
+	}
+}

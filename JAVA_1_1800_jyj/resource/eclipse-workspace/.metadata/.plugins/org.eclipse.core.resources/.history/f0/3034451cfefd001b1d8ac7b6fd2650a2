@@ -1,0 +1,28 @@
+public class game_369 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("3.6.9�����Դϴ�.!!");
+		System.out.println("1~99");
+		for(int i=1;i<100;i++) {
+			int a = i/10; // ��
+			int b = i%10; // ������
+			
+			if(a==3||a==6||a==9) {
+				System.out.print("��");
+			}
+			else if(b==3||b==6||b==9) {
+				System.out.print("��");
+				
+			}
+			else {
+				System.out.print("x");
+			}
+			if(a==3||a==6||a==9&&b==3||b==6||b==9) {
+				System.out.print("����");
+			}
+		}
+		
+		
+	}
+
+}

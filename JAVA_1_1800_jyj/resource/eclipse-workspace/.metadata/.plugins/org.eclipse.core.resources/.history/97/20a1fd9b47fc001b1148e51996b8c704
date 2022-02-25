@@ -1,0 +1,19 @@
+package java∏‡≈‰ææ;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Scanner1 {
+	public static void main(String[] args) throws IOException{
+		// TODO Auto-generated method stub
+		BufferedWriter bw = new BufferedWriter(new FileWriter(new File("sampl.txt")));
+		bw.write("Hello\n");
+		bw.newLine();
+		bw.write("I am writing\n");
+		bw.flush();
+		bw.close();
+		}
+
+}

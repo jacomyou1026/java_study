@@ -1,0 +1,12 @@
+package ex1_memo_app;
+
+import java.awt.Frame;
+
+public class Memo {
+	public static void main(String[] args) {
+		Frame frame = new Frame("간단 메모장");
+		frame.setBounds(2000, 300, 250,400);
+		frame.setVisible(true);
+		
+	}
+}

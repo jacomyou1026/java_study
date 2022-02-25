@@ -1,0 +1,14 @@
+package ex2_image;
+
+import java.awt.Frame;
+
+public class ImageTest {
+	public static void main(String[] args) {
+		
+		Frame f= new Frame();
+		f.setBounds(100,400,400,600);
+		f.setLayout(null);
+		
+		f.setVisible(true);
+	}
+}

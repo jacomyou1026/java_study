@@ -1,0 +1,23 @@
+package work;
+
+import java.awt.Frame;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+
+public class work {
+	public static void main(String[] args) {
+		Frame f = new Frame();
+		f.setBounds(50,10,130,100);
+		f.addWindowListener( new WindowAdapter() {
+
+			@Override
+			public void windowClosing(WindowEvent e) {
+				Frame f1 =new Frame("Á¾·á");
+			};
+		} );
+		
+
+		
+	}
+}

@@ -1,0 +1,21 @@
+package ex2_image;
+
+import java.awt.Frame;
+
+public class ImageTest {
+	public static void main(String[] args) {
+		
+		Frame f= new Frame();
+		f.setBounds(100,400,400,600);
+		f.setLayout(null);
+		
+		f.setVisible(true);
+		f.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);// 열려있는 모든 프레임을 종료
+			};
+		});
+	}
+	}
+}

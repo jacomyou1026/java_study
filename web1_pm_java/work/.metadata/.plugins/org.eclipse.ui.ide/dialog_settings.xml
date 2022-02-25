@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\전유진\eclipse-workspace"/>
+			<item value="C:\web1_pm_java\work\Ex_1012"/>
+			<item value="C:\web1_pm_java\work\Ex_1012\src"/>
+			<item value="C:\web1_pm_java\work\ex_1012\src\ex2_value_type"/>
+			<item value="C:\Users\전유진\Desktop\Ex_1012"/>
+		</list>
+	</section>
+</section>

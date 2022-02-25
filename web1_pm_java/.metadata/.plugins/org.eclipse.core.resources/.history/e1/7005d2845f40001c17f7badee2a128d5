@@ -1,0 +1,35 @@
+package ex3_check_box;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+public class Check_radioMain {
+	public static void main(String[] args) {
+		Frame f = new Frame("체크박스와 라디오버튼");
+		f.setBounds(500,400,800,500);
+		f.setLayout(null);
+		
+		//폰트 설정
+		Font font = new Font("궁서체",Font.BOLD,30);
+		
+		Label q1 =new Label("당신의 취미는 무엇입니까");
+		ql.setFont(font);
+		q1.setBounds(10,20,150,50);
+		q1.setBackground(Color.green);
+		f.add(q1);//frame에 label 추가
+		
+		f.setVisible(true);
+		f.addWindowListener( new WindowAdapter() {
+
+			@Override
+			public void windowClosing(WindowEvent e) {
+				System.exit(0);//열려있는 모든 프레임을 종료
+			};
+		} );
+		
+	}
+}

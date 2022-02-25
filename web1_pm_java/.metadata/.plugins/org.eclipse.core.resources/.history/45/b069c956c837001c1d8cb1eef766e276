@@ -1,0 +1,30 @@
+package work;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class updown {
+	public static void main(String[] args) {
+		int ran = new Random().nextInt(50)+1;
+		Scanner sc =new Scanner(System.in);
+		int result = sc.nextInt(ran);
+		int count = 0;
+		String r = "";
+		while(true) {
+			System.out.print("정수 : ");
+			int answer =sc.nextInt();
+			if(answer>result) {
+				r="Down";
+				++count;
+			}else if(answer<result){
+				++count;
+				r="up";
+			}else {
+				r=count+"만에 정답";
+				break;
+			}
+		}
+		System.out.println(r);
+		
+	}
+}

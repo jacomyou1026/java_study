@@ -1,0 +1,8 @@
+package java_½Ç½À;
+
+import java.util.Calendar;
+
+public class Week {
+	public enum Week{MONDAY,TUSEDAY,
+
+}

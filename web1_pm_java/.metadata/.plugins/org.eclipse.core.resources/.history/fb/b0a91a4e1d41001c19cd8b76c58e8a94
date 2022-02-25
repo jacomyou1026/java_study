@@ -1,0 +1,28 @@
+package ex_work;
+
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+
+public class Ex_work {
+	public static void main(String[] args) {
+		
+		Frame frame= new Frame("외부프레임");
+		frame.setBounds(500,400,500,400);
+		
+		frame.setVisible(true);
+		
+		frame.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				Frame frame2 = new Frame("종료");
+				frame2.setBounds(550,450,400,300);
+				frame2.setVisible(true);
+				
+			}
+		});
+		
+		
+	}
+}

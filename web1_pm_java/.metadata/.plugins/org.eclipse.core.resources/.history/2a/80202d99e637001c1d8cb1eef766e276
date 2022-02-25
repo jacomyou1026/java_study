@@ -1,0 +1,31 @@
+package work;
+
+import java.util.Scanner;
+
+public class ActorInfo {
+		String[][] actor = { { "[송강호]", "박쥐", "괴물", "관상" },
+				{ "[김수현]", "도둑들", "수상한 그녀", "은밀하게 위대하게" },
+				{ "[이병헌]", "지아이조", "레드", "광해" } };
+		
+		String search(String name) {
+			String e ="";
+			String result = "";
+			String arIndex[] =new String[actor.length];
+			for (int i = 0; i < actor.length; i++) {
+				arIndex[i]  = actor[i][0].substring(1, actor[i][0].length() - 1);
+				System.out.println(arIndex[i]);
+			}
+//			
+//			for (int i = 0; i < actor.length; i++) {
+//				if (name.equals(i)) {
+//					for (int j = 0; j < actor[i].length; j++) {
+//						 result +=actor[i][j];
+//					}
+//				} else {
+//					result = "해당배우가 존재하지 않습니다.";
+//					break;
+//				}
+//			}
+			return result; 
+		}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;arr&apos; in &apos;백준.Main.main(...)&apos; to &apos;T&apos;&#x0D;&#x0A;- Original project: &apos;백준&apos;&#x0D;&#x0A;- Original element: &apos;백준.Main.main(String[]).arr&apos;&#x0D;&#x0A;- Renamed element: &apos;arr&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;arr&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;백준{Main.java[Main~main~\[QString;@arr!229!249!233!235!\[I!0!false" name="T" references="true" stamp="1627625807668" version="1.0"/>
+</session>

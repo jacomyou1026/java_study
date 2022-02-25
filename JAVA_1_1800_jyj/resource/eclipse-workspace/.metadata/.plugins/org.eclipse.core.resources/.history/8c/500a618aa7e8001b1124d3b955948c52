@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package java_실습;
+
+/**
+ * @author 전유진
+ *
+ */
+public class Week1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		LocalDateTime
+	}
+
+}
